@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(./assets/fonts/Roboto-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(./assets/fonts/Roboto-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Archangelsk';
+    src: url(./assets/fonts/ofont.ru_Archangelsk.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+p, h1, h2, h3, h4, h5, h6, li, ul, body {
+    margin: 0;
+    padding: 0;
+}
+  
+* {
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1352px;
+    margin: auto;
+    padding: 0 32px;
+}
+input{
+    accent-color: #F8F200;
+}

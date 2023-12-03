@@ -1,0 +1,86 @@
+.game {
+  display: flex;
+  &__img {
+    width: 100%;
+    height: 717px;
+    background: url(./../../assets/image/cb.png) no-repeat center/cover;
+  }
+  &__info {
+    background: #000;
+    width: 100%;
+    height: 717px;
+    padding-top: 70px;
+    padding-left: 32px;
+    padding-bottom: 70px;
+  }
+  &__title span {
+    color: #fff;
+    font-family: "Archangelsk";
+    font-size: 62px;
+    font-weight: 400;
+  }
+  &__case span {
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+  }
+  &__case {
+    display: flex;
+    align-items: center;
+  }
+  &__case img {
+    margin-right: 10px;
+  }
+  &_case2 {
+    margin: 15px 0;
+  }
+  &_case1 {
+    margin-top: 15px;
+  }
+  &__complects {
+    color: #52bedc;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+    margin: 25px 0 70px;
+  }
+  &__platform span {
+    color: #52bedc;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+@media screen and(max-width: 1030px) {
+  .game__img {
+    width: 50%;
+  }
+  .game__title span {
+    font-size: 55px;
+  }
+}
+@media screen and(max-width: 750px) {
+  .game__img {
+    display: none;
+  }
+  .game__info {
+    padding: 0;
+  }
+  .game__info {
+    height: 100%;
+    padding-bottom: 70px;
+  }
+  .game__img2 {
+    width: 100%;
+    height: 320px;
+    background: url(./../../assets/image/cb.png) no-repeat center/cover;
+    display: block;
+  }
+  .game__title {
+    padding: 40px 32px 0;
+  }
+  .game__complects {
+    padding: 0 32px;
+  }
+}

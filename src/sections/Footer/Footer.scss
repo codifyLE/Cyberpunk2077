@@ -1,0 +1,80 @@
+.footer {
+  flex-direction: column;
+  width: 100%;
+  background: #fff;
+  &__logos img {
+    margin-right: 32px;
+  }
+  &__items {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.documentation {
+  display: flex;
+  align-items: center;
+}
+.documentation span {
+  margin-left: 32px;
+  color: #000;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+}
+.footer__bottom span {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13px;
+}
+.footer__bottom {
+  text-align: center;
+  background: #000000;
+}
+.footer-container {
+  padding: 24px 32px;
+}
+@media screen and(max-width: 1024px) {
+  .documentation {
+    width: 345px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+}
+@media screen and(max-width: 750px) {
+  .footer__items {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .documentation {
+    margin-top: 20px;
+    background: #e6e6e6;
+    padding: 25px;
+    width: 100%;
+  }
+  .documentation span {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .footer-container {
+    padding: 24px 0 0;
+  }
+  .license {
+    margin-bottom: 15px;
+  }
+  .logoCd {
+    margin-top: 25px;
+  }
+  .footer__logos img {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

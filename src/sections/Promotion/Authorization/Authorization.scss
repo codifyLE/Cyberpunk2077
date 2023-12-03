@@ -1,0 +1,97 @@
+.authorization {
+  margin-top: 100px;
+  &__items {
+    margin-right: 32px;
+  }
+}
+
+.email {
+  border: none;
+  border-bottom: 1px solid #777;
+  background: #000;
+  padding-bottom: 15px;
+  width: 460px;
+}
+.email::placeholder {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 300;
+}
+.input_2 {
+  margin-top: 35px;
+}
+.photo {
+  margin: 35px 0;
+  display: inline-block;
+  border: 1px dashed #777;
+  padding: 40px 137px;
+  &__link {
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 300;
+  }
+  &__format {
+    text-align: center;
+    margin-top: 7px;
+  }
+}
+.photo__format span {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 300;
+}
+.button_yellow {
+  padding: 15px 60px;
+  background: #f8f200;
+  margin-top: 0;
+}
+.button_yellow span {
+  color: #000;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.data__proccesing span {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 300;
+}
+.data__proccesing {
+  margin-top: 15px;
+}
+
+.data__text {
+  margin-left: 10px;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+}
+@media screen and(max-width: 1350px) {
+  .email {
+    width: 100%;
+  }
+}
+@media screen and(max-width: 750px) {
+  .authorization {
+    width: 100%;
+  }
+  .photo {
+    width: 100%;
+    text-align: center;
+  }
+  .authorization__items {
+    margin-right: 0;
+  }
+}
+@media screen and(max-width: 750px) {
+  .photo {
+    padding: 30px;
+  }
+}

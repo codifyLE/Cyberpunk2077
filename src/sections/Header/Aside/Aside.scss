@@ -1,0 +1,33 @@
+.aside__block {
+  padding: 60px;
+  margin-left: auto;
+  background: #f8f200;
+  clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 100%, 0 100%, 0 17%);
+}
+.aside__subtitle {
+  width: 484px;
+  color: #000;
+  font-family: "Archangelsk";
+  font-size: 62px;
+  font-weight: 400;
+}
+
+@media screen and(max-width: 800px) {
+  .aside__block {
+    margin: 0 auto;
+  }
+}
+@media screen and(max-width: 700px) {
+  .aside__subtitle {
+    width: auto;
+    font-size: 50px;
+  }
+}
+@media screen and(max-width: 550px) {
+  .header__container {
+    padding: 0;
+  }
+  .aside__subtitle {
+    font-size: 30px;
+  }
+}

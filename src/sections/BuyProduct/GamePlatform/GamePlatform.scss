@@ -1,0 +1,35 @@
+.platform1 {
+  margin: 25px 0 48px;
+}
+.platform1 img {
+  margin-right: 80px;
+}
+.platform2 img {
+  margin-right: 80px;
+}
+@media screen and(max-width: 800px) {
+  .platform1 {
+    margin: 25px 0;
+  }
+}
+@media screen and(max-width: 750px) {
+  .game__platform {
+    padding: 0 32px;
+  }
+}
+@media screen and(max-width: 480px) {
+  .platform1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .platform2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .platform1 img {
+    margin-bottom: 20px;
+  }
+  .platform2 img {
+    margin-bottom: 20px;
+  }
+}
